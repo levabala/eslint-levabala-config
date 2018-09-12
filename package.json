@@ -1,0 +1,27 @@
+{
+  "name": "eslint-levabala-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./distribution/index.js",
+  "scripts": {
+    "build": "babel source --presets babel-preset-es2015 --out-dir distribution",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levabala/eslint-levabala-config.git"
+  },
+  "author": "levabala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/levabala/eslint-levabala-config/issues"
+  },
+  "homepage": "https://github.com/levabala/eslint-levabala-config#readme",
+  "dependencies": {
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
